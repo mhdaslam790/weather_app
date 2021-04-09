@@ -11,7 +11,6 @@ class MyApp extends StatelessWidget {
      initialRoute: '/',
       routes: {
         '/': (context) => LoadingScreen(),
-        '/second': (context) => LocationScreen(),
       },
     );
   }
